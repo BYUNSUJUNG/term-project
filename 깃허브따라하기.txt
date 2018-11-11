@@ -1,0 +1,14 @@
+git init
+
+git config user.name "BYUNSUJUNG"
+git config user.email "susususu07@naver.com"
+git config --list
+
+git remote add origin https://github.com/BYUNSUJUNG/term-project.git
+
+git add .
+git add status
+git commit -m "git init 2018-11-11"   //"메세지"
+
+git push origin master
+git push origin +master(에러뜨면 강제로 하는방법)
